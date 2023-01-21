@@ -2,9 +2,8 @@
 -r requirements.txt
 
 # for dev
-black
+black[jupyter]
 pylint
-flake8
 coverage
 isort
 mypy

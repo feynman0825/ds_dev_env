@@ -4,7 +4,7 @@
         {
             "name": "Python: Current File",
             "request": "launch",
-            "program": "$file",
+            "program": "${file}",
             "console": "integratedTerminal",
             "type": "python",
             "env": {

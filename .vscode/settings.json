@@ -8,6 +8,13 @@
         ".vscode/*.py",
         "**/site-packages/**/*.py"
     ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--ignore-missing-imports",
+        "--show-column-numbers",
+        "--no-pretty"
+    ],
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
