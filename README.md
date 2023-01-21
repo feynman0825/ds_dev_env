@@ -1,6 +1,4 @@
 
-
-
 ## Generate gitignore
 
 https://www.toptal.com/developers/gitignore
@@ -38,4 +36,10 @@ mypy src/demo_package/demo_module/module.py
 
 ```{bash}
 pylint src
+```
+
+## Unittest
+
+```{bash}
+pytest .
 ```
