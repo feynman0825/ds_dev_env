@@ -1,0 +1,15 @@
+# for prod
+-r requirements.txt
+
+# for dev
+black
+pylint
+flake8
+coverage
+isort
+mypy
+pytest-cov
+pytest-xdist
+pytest-mock
+ipykernel
+jupyter
