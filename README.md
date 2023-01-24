@@ -10,12 +10,19 @@ https://docs.conda.io/en/latest/miniconda.html
 
 
 
-## Create conda environment
+## Manage conda environment
+
+### Create
 
 ```{bash}
 conda env create --file environment.yml
 ```
 
+### Remove
+
+```{bash}
+conda env remove -n ds_dev_env
+```
 
 ## Code formatting
 
